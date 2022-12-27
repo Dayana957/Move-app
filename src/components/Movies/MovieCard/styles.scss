@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  .check {
+    margin-right: 5px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .task-wait {
+    color: black;
+  }
+
+  .task-done {
+    color: grey;
+    text-decoration: line-through;
+  }
+}
